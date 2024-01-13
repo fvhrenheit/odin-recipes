@@ -16,6 +16,11 @@ body{
     background-color: black;
 }
 
+.ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
 .list{
     font-size: 28px;
 }
