@@ -1,24 +1,36 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
-    background-color:rgba(147, 161, 14, 0.514) ;
+    background-color:rgba(214, 230, 72, 0.514) ;
 }
 
 #headerimg{
     width: 600px;
     height: auto;
+    padding: 2px;
+    outline: 8px double;
+    margin: 8px 0px 50px;
+    background-color: white;
 
 }
 
 .main.header{
     font-size: 38px;
-    color: white;
-    background-color: black;
+
+}
+
+.recipes{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 60px;
 }
 
 .ul{
     list-style-type: none;
     padding: 20px;
+    text-align: left;
+    list-style:square;
+    margin-left: 25px;
 }
 
 .list{
@@ -26,7 +38,7 @@ body{
 }
 
 .pierogies{
-    color: bisque;
+    color: salmon
 }
 
 .barszcz{
